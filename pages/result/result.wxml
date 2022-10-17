@@ -1,0 +1,10 @@
+<!--pages/result/result.wxml-->
+<view class="container">
+  <view class="title">你的体测成绩为：</view>
+  <view class="textLayout">
+    <text>{{result}}</text>
+  </view>
+  <view class="btnGroup">
+    <button type="primary" bindtap="ToQuestion">看看要刷多少锻</button>
+  </view>
+</view>

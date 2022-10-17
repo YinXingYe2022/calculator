@@ -1,0 +1,36 @@
+<!--pages/question/question.wxml-->
+<!-- <text>pages/question/question.wxml</text> -->
+<image class='background' src="/images/back.png" mode="scaleToFill"></image>
+<view class="tiyu">
+	<view class="title">体育成绩</view>
+  <view class="for1">
+	<input placeholder="请输入您期望的体育成绩" bindinput="pragrade"></input>
+  <icon type="info_circle"  bindtap="detail0" size="20" />
+  </view>
+</view>
+<view class="tice">
+	<view class="title">体测成绩</view>
+  <view class="for1">
+	<input placeholder="请输入您的体测成绩" bindinput="testgrade"></input>
+  <icon type="info_circle"  bindtap="detail" size="20" />
+  </view>
+</view>   
+<button bindtap="calculate" type="primary" plain="true" >确认提交</button>
+<view class="result1"  hidden="{{hideview}}">
+  <text>刷锻分数（/分） :{{res}}</text>
+</view>
+<view class="result1"  hidden="{{hideview}}">
+  <text>跑步公里数（/KM）:{{runResult}}</text>
+</view>
+<view class="result1"  hidden="{{hideview}}">
+  <text>跳绳个数（/400个）:{{ropeResult}}</text>
+</view>
+<view class="result1"  hidden="{{hideview}}">
+  <text>游泳次数（/次）:{{swimResult}}</text>
+</view>
+<view class="result1"  hidden="{{hideview}}">
+  <text>健身房次数（/次）:{{gymResult}}</text>
+</view>
+<view class="result"  hidden="{{hideview1}}">
+  <text>刷锻满分为30分，体育成绩输入过高，请重新输入！</text>
+</view>

@@ -1,0 +1,12 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+<!-- 图片区域 -->
+<image class='background' src="/images/back.png" mode="scaleToFill" ></image>
+<view class="img-box">
+  <image src="/images/sign.png" mode="widthfill" ></image>
+</view>
+<!-- 跳转页面 -->
+<button bindtap="gotohome" type="primary" plain="true">首页</button>
+<button bindtap="gotocalculator" type="primary" plain="true">普通计算器</button>
+<button bindtap="gotoexercise" type="primary" plain="true">体测成绩</button>
+<button bindtap="gotoquestion" type="primary" plain="true">预估刷锻</button>

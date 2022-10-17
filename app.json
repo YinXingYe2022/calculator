@@ -1,0 +1,41 @@
+{
+  "pages":[    
+    "pages/home/home",
+    "pages/calculator/calculator",
+    "pages/exercise/exercise",
+    "pages/question/question",
+    "pages/logs/logs",
+    "pages/result/result"  
+  ],
+   "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ccff99",
+    "navigationBarTitleText": "体育成绩计算器",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text":"首页 ",
+      "iconPath": "/images/home.png",
+      "selectedIconPath": "/images/home -active.png"
+    },{
+      "pagePath": "pages/calculator/calculator",
+      "text":"计算器",
+      "iconPath": "/images/calculator.png",
+      "selectedIconPath": "/images/calculator -active.png"
+    },{
+      "pagePath": "pages/exercise/exercise",
+      "text":"体测",
+      "iconPath": "/images/exercise.png",
+      "selectedIconPath": "/images/exercise -active.png"
+    },{
+      "pagePath": "pages/question/question",
+      "text":"刷锻",
+      "iconPath": "/images/question.png",
+      "selectedIconPath": "/images/question -active.png"      
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
